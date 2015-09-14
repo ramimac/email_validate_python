@@ -1,7 +1,11 @@
 #what this script will do
+
 -will create a file "correct-emails.txt" with valid email  in same location where the script is.
+
 -will create a file "fake-email.txt" with fake emails  in same location where the script is.
+
 #how to run the script 
+
 ./email_validate.py <your email file>
 
 eg. 
@@ -10,7 +14,7 @@ eg.
 
 
 #Reference
-# email_validate_python
+
 validate emails using python library
 https://pypi.python.org/pypi/validate_email
 
@@ -20,11 +24,11 @@ First, you must do:
 
 pip install validate_email
 
+pip install pyDNS
+
 Extra
 
 #For check the domain mx and verify email exits you must have the pyDNS package installed:
-
-pip install pyDNS
 
 USAGE
 
