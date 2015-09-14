@@ -14,7 +14,7 @@ else:
             status_email=validate_email(line.strip(),verify=True)
             print status_email
             if status_email == True:
-                with open('corrected-emails.txt','a') as truemail:
+                with open('correct-emails.txt','a') as truemail:
                     truemail.write(line)
             else:
                 with open('fake-emails.txt','a') as falseemail:
