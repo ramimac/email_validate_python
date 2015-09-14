@@ -1,3 +1,15 @@
+#what this script will do
+-will create a file "correct-emails.txt" with valid email  in same location where the script is.
+-will create a file "fake-email.txt" with fake emails  in same location where the script is.
+#how to run the script 
+./email_validate.py <your email file>
+
+eg. 
+
+./email_validate.py  emailcollection.txt
+
+
+#Reference
 # email_validate_python
 validate emails using python library
 https://pypi.python.org/pypi/validate_email
