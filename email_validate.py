@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python
 from validate_email import validate_email
 import sys
 if len(sys.argv) != 2:
