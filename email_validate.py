@@ -1,8 +1,8 @@
-#!/bin/python
+#!/usr/bin/python
 from validate_email import validate_email
 import sys
 if len(sys.argv) != 2:
-    print "Missing Email List File"
+    print "Please choose an Email list file"
     exit()
 else:
     email_listfile=sys.argv[1]
